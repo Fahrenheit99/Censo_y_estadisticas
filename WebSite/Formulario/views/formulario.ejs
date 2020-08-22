@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <title>UNED - Enfermedades autoinmunes en Costa Rica</title>
+
+    <!-- Including UNED STANDARD -->
+    <link href="https://www.uned.ac.cr/menu/style_menu.css" rel="stylesheet" type="text/css" />
+    <%- include('./headerTemplate.html'); -%>
+    <!-- Including UNED STANDARD  -->
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <script src="/../contenido/static/js/jquery-3.4.1.js" type="text/javascript"></script>
+    <link href="/../css/style.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="/../contenido/static/css/bootstrap.css" />
+    <!-- include del javascript -->
+    <link href="//netdna.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+    <script src="//netdna.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
+    <!-- INCLUDE DE JAVASCRIPT LOCAL -->
+    <script src="/../js/main.js"></script>
+    <script src="/../contenido/static/js/constructorFormulario.js" type="text/javascript"> </script>
+    <script src="/../contenido/static/js/consultorFormulario.js" type="text/javascript"> </script>
+    <script src="/../contenido/static/js/spaceAdder.js" type="text/javascript"> </script>
+
+</head>
+
+<body style="background-color:ghostwhite;">
+
+    <div class="col_full">
+        <h1 style="text-align: center;">Enfermedades autoinmunes en Costa Rica</h1>
+    </div>
+
+    <div class="col_full">
+        <form action="/Formulario/Envio" method="POST">
+            <input type="hidden" class="form-control" id="<%=distrito%>" name="<%='distrito'%>" value="<%=distrito%>">
+            <a class="next prev" onclick="preguntaAnterior()">❮</a>
+            
+            <div class="formulario" id="formContainer">
+
+
+            </div>
+        </form>
+    </div>
+</body>
+<!-- INCLUDING UNED FOOTER -->
+<footer>
+    <br>
+    <br>
+    <link rel="stylesheet" href="/../css/footerTemplateStyle.css" />
+    <%- include ('./footer.html'); -%>
+</footer>
+<!-- INCLUDING UNED FOOTER -->
+</html>

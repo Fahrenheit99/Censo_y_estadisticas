@@ -1,0 +1,21 @@
+﻿id_pregunta,id_tipo_pregunta,nombre_pregunta,activo,tituloestadistica
+1,2,Sexo,1,Sexo acorde a la enfermedad 
+2,4,Año de Nacimiento,1,Edad acorde a la enfermedad
+3,2,Situación Laboral,1,Situación Laboral acorde a la enfermedad
+4,5,Enfermedad(es) autoinmunes diagnósticadas (marque todas las que aplican y en caso de no encontrarse listada favor escríbala),1,Enfermedades Autoinmunes Asociadas acorde a la enfermedad
+5,2,Antecedentes familiares de enfermedad autoinmune,1,Existencia de antecedentes familiares en cuanto enfermedades familiares
+6,3,Ha sido diagnósticado con alguna de las siguientes enfermedades crónicas,1,"Enfermedades Crónicas asociadas, acorde a la enfermedad"
+7,2,"Edad de diagnóstico (Si tiene más de una enfermedad autoinmune, seleccione la edad de diagnóstico de la primera)",1,"Edad de diagnóstico, acorde a la enfermedad"
+8,1,Síntomas más discapacitantes que sufre,1,"Sintomas más descapacitantes que sufre,acorde a la enfermedad"
+9,2,"¿Utiliza dispositivos de apoyo? (dispositivos ortopédicos o para movilidad: silla, bastón, andadera..)",1,"Dispositivo de apoyo usado,acorde a la enfermedad"
+11,2,Tipo de Atención Médica que recibe,1,"Tipo de atención médica recibida,acorde a la enfermedad"
+10,2,Tiempo de diagnóstico (tiempo que tardó desde el inicio de los sí­ntomas hasta el diagnóstico oficial),1,"Tiempo de diagnóstico (Desde el inicio hasta el dianóstico),acorde a la enfermedad"
+12,2,Recibe tratamiento farmacológico para atender su condición,1,"Tipo de tratamiento farmacológico, acorde a la enfermedad"
+13,2,En caso de no recibir tratamiento farmacológico. ¿Por qué?,1,"Razón de recibimiento/no recibimiento de tratamiento farmacológico, acorde a la enfermedad"
+14,1,"Lleva algún tipo de dieta especéfica para su condición. En caso de respuesta afirmativa, especifíque el nombre de la dieta.",1,Tipo de dieta acorde a la enfermedad
+15,1,Suplementos que consume,1,Suplementos consumidos acorde a la enfermedad
+16,1,"Terapias alternativas que utiliza para manejar la condición (tratamientos como: aromaterapia, homeopatía, aryurveda, acupuntura, ejercicios en agua, yoga, pilates, reiki, etc...)",1,"Tratamientos para manejar la condición, acorde a la enfermedad"
+17,2,Cuenta con Red de Apoyo ya sea familiar o de amigos,1,"Existencia de Red de Apoyo, acorde a la enfermedad"
+18,2,"Principal fuente de información que utiliza para mantenerse al tanto de su enfermedad (libros, periódicos, revistas, redes sociales, internet, mi médico etc..)",1,"Principla fuente de información, acorde a la enfermedad"
+19,3,Terapias que recibe por la Seguridad Social,1,"Terapias recibidas por medio de Seguridad Social, acorde a la enfermedad"
+20,3,Terapias que recibe por cuenta propia,1,"Terapias recibidas por cuenta propia, acorde a la enfermedad"

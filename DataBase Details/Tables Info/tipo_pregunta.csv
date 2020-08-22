@@ -1,0 +1,6 @@
+﻿id_tipo_pregunta,nombre_tipo
+1,Abierta
+3,Multiple
+2,Unica
+4,anioNac
+5,Extensible

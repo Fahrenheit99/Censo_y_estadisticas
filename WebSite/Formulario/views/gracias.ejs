@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <title>UNED - Enfermedades autoinmunes en Costa Rica</title>
+
+    <!-- Including UNED STANDARD  -->
+    <link href="https://www.uned.ac.cr/menu/style_menu.css" rel="stylesheet" type="text/css" />
+    <%- include('./headerTemplate.html'); -%>
+    <!-- Including UNED STANDARD  -->
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <link href="/../css/style.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="/../contenido/static/css/bootstrap.css" />
+    <!-- include del javascript -->
+    <link href="//netdna.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+
+</head>
+
+<body style="background-color:ghostwhite;">
+
+    <form action="/Inicio" method="GET">
+        <% var message = idUser ; %>
+        <div class="col_one_third recuadroPregunta mensajeGracias">
+            <h1> Su respuesta ha sido registrada correctamente, ha sido la persona número: </h1>
+            <h1> <%=message %> </h1>
+            <h1> !Gracias por su colaboración!</h1>
+        </div>
+        <div style="width: 100%; display: flex; justify-content: center;">
+            <button type="submit" id="enviar" class="btn btn-success">Inicio</button>
+        </div>
+    </form>
+
+</body>
+<br><br><br><br><br>
+<!-- INCLUDING UNED FOOTER -->
+<div class="footerAbajo">
+    <link rel="stylesheet" href="/../css/footerTemplateStyle.css" />
+    <%- include ('./footer.html'); -%>
+</div>
+<!-- INCLUDING UNED FOOTER -->
+
+</html>

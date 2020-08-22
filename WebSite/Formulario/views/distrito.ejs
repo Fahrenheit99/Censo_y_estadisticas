@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <title>UNED - Enfermedades autoinmunes en Costa Rica</title>
+
+    <!-- Including UNED STANDARD  -->
+    <link href="https://www.uned.ac.cr/menu/style_menu.css" rel="stylesheet" type="text/css" />
+    <%- include('./headerTemplate.html'); -%>
+    <!-- Including UNED STANDARD  -->
+
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <script src="/../contenido/static/js/jquery-3.4.1.js" type="text/javascript"></script>
+    <link href="/../css/style.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="/../contenido/static/css/bootstrap.css" />
+
+    <!-- include del javascript -->
+    <script src="/../js/main.js"></script>
+
+    <link href="//netdna.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+    <script src="//netdna.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
+
+    <script>
+        $(function () {
+            // Remove button click
+            $(document).on(
+                'click',
+                '[data-role="dynamic-fields"] > .form-inline [data-role="remove"]',
+                function (e) {
+                    e.preventDefault();
+                    $(this).closest('.form-inline').remove();
+                }
+            );
+            // Add button click
+            //es necesario hacer un for común dentro del cual estén todos los imputs que se desean revisar
+            //y así obtener el nombre de cada uno de los inputs, esto para efectos de las preguntas abiertas
+            //para que no se confundan las respuesastas y que siga la cumbia
+            //según parece se ocupa ajax para lo anterior y si todo es en una pestañana--> pos si++
+            //
+            $(document).on(
+                'click',
+                '[data-role="dynamic-fields"] > .form-inline [data-role="add"]',
+                function (e) {
+                    e.preventDefault();
+                    //console.log("Entro a la funcion");
+
+                    var container = $(this).closest('[data-role="dynamic-fields"]');
+                    new_field_group = container.children().filter('.form-inline:first-child').clone();
+
+                    new_field_group.find('input').each(function () {
+                        $(this).val('');
+                        //console.log( $(this).atr("hint") );
+                        $(this).attr("id", $(this).attr('hint') + "input" + $('#inputCounter').val());
+                        //$('a').attr('href');
+                        //$(this).attr( "id", "input"+$('#inputCounter').val() );
+                    });
+
+                    new_field_group.find('label').each(function () {
+                        $(this).attr("for", $(this).attr('hint') + "input" + $('#inputCounter').val());
+                        //$(this).attr( "for",  "input"+$('#inputCounter').val());
+                        $('#inputCounter').val(parseInt($('#inputCounter').val()) + 1);
+                    });
+
+                    container.append(new_field_group);
+                }
+            );
+        });
+
+    </script>
+
+    <script>
+        $(document).ready(function () {
+            botonSiguiente();
+        });
+
+        function botonSiguiente() {
+            document.getElementById("siguiente").onclick = function () {
+                document.getElementById("form").submit();
+            }
+        } 
+    </script>
+
+</head>
+
+<body style="background-color:ghostwhite;">
+
+    <div class="col_one_fourth" style="margin-top: -2.3%; margin-left: 80%;">
+        <form action="/Inicio" method="GET">
+            <button type="submit" id="inicio" class="btn btn-link">Inicio</button>
+        </form>
+    </div>
+
+    <div class="col_full">
+        <h1 style="text-align: center;">Enfermedades autoinmunes en Costa Rica</h1>
+    </div>
+    <div class="col_full">
+        <h2 style="text-align: center;">Ubicación</h2>
+    </div>
+    <div class="col_full">
+        <form id="form" action="/Formulario">
+            <div class="formulario">
+                <a class="next prev" href="javascript:history.go(-1)">❮</a>
+                <div class="col_one_third recuadroPregunta">
+                    <h3 class="tituloPregunta"> Distrito: </h3>
+                    <select class="form-control-opcion" name="distrito" id="distrito">
+                        <option value="">Predeterminado</option>
+                        <% for (const obj of listaDistrito) { %>
+                        <option value="<%=obj.iddistrito %>" name="<%=obj.iddistrito %>"><%=obj.nombredistrito %>
+                        </option>
+                        <% } %>
+                    </select>
+                </div>
+                <a id="siguiente" class="next">❯</a>
+                <hr>
+            </div>
+        </form>
+    </div>
+</body>
+
+<!-- INCLUDING UNED FOOTER -->
+<div class="footerAbajo">
+    <link rel="stylesheet" href="/../css/footerTemplateStyle.css" />
+    <%- include ('./footer.html'); -%>
+</div>
+<!-- INCLUDING UNED FOOTER -->
+
+</html>

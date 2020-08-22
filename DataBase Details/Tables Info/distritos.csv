@@ -1,0 +1,474 @@
+﻿id_distrito;id_canton;nombre;cant_habitantes
+1;1;Carmen;2702
+2;1;Merced;12257
+3;1;Hospital;19270
+4;1;Catedral;12936
+5;1;Zapote;18679
+6;1;San Francisco de Dos Ríos;20209
+7;1;Uruca;31728
+8;1;Mata Redonda;8313
+9;1;Pavas;71384
+10;1;Hatillo;50511
+11;1;San Sebastián;40065
+12;2;Escazú;11984
+13;2;San Antonio;22554
+14;2;San Rafael;21971
+15;3;Desamparados;33866
+16;3;San Miguel;31805
+17;3;San Juan de Dios;19481
+18;3;San Rafael Arriba;15262
+19;3;San Antonio;9727
+20;3;Frailes;3772
+21;3;Patarrá;11921
+22;3;San Cristóbal;3905
+23;3;Rosario;3088
+24;3;Damas;13175
+25;3;San Rafael Abajo;23283
+26;3;Gravilias;15024
+27;3;Los Guido;24102
+28;4;Santiago;11512
+29;4;Mercedes Sur;5866
+30;4;Barbacoas;3692
+31;4;Grifo Alto;1182
+32;4;San Rafael;1730
+33;4;Candelaria;1436
+34;4;Desamparaditos;666
+35;4;San Antonio;3889
+36;4;Chires;3031
+37;5;San Marcos;9993
+38;5;San Lorenzo;4394
+39;5;San Carlos;1893
+40;6;Aserrí;28191
+41;6;Tarbaca;1446
+42;6;Vuelta de Jorco;6499
+43;6;San Gabriel;6061
+44;6;Legua;1521
+45;6;Monterrey;498
+46;6;Salitrillos ;13676
+47;7;Colón;16088
+48;7;Guayabo;4449
+49;7;Tabarcia;4703
+50;7;Piedras Negras;379
+51;7;Picagres;675
+52;8;Guadalupe;20663
+53;8;San Francisco ;2032
+54;8;Calle Blancos;18984
+55;8;Mata de Plátano;17370
+56;8;Ipís;26033
+57;8;Rancho Redondo;2538
+58;8;Purral ;27464
+59;9;Santa Ana;11320
+60;9;Salitral;4304
+61;9;Pozos;15585
+62;9;Uruca;7200
+63;9;Piedades;8128
+64;9;Brasil;2586
+65;10;Alajuelita;11988
+66;10;San Josecito;10506
+67;10;San Antonio;4739
+68;10;Concepción;18721
+69;10;San Felipe;31649
+70;11;San Isidro;16625
+71;11;San Rafael;7040
+72;11;Dulce Nombre de Jesús;9744
+73;11;Patalillo;20349
+74;11;Cascajal ;6728
+75;12;San Ignacio;9016
+76;12;Guaitil;2406
+77;12;Palmichal;4581
+78;12;Cangrejal;1875
+79;12;Sabanillas;2331
+80;13;San Juan   ;21745
+81;13;Cinco Esquinas;5925
+82;13;Anselmo Llorente;9986
+83;13;León XIII;13661
+84;13;Colima;13525
+85;14;San Vicente ;30998
+86;14;San Jerónimo;6154
+87;14;Trinidad;19767
+88;15;San Pedro;23977
+89;15;Sabanilla;10775
+90;15;Mercedes;4688
+91;15;San Rafael;9692
+92;16;San Pablo;1357
+93;16;San Pedro;646
+94;16;San Juan de Mata;1182
+95;16;San Luis;517
+96;16;Carara;1810
+97;17;Santa María;4621
+98;17;Jardín;524
+99;17;Copey;1803
+100;18;Curridabat;28817
+101;18;Granadilla;14778
+102;18;Sánchez;5364
+103;18;Tirrases;16247
+104;19;San Isidro de El General;45327
+105;19;General;6373
+106;19;Daniel Flores;33537
+107;19;Rivas;6591
+108;19;San Pedro;9102
+109;19;Platanares;7203
+110;19;Pejibaye;7995
+111;19;Cajón;8542
+112;19;Barú;2393
+113;19;Río Nuevo;3061
+114;19;Páramo;4410
+115;20;San Pablo;4209
+116;20;San Andrés;1578
+117;20;Llano Bonito;2111
+118;20;San Isidro;1531
+119;20;Santa Cruz;1665
+120;20;San Antonio;1106
+121;21;Alajuela;42975
+122;21;San José;41656
+123;21;Carrizal;6856
+124;21;San Antonio;24971
+125;21;Guácima;20183
+126;21;San Isidro;17294
+127;21;Sabanilla;9059
+128;21;San Rafael;26248
+129;21;Río Segundo;10794
+130;21;Desamparados;26109
+131;21;Turrúcares;7630
+132;21;Tambor;10992
+133;21;Garita;7277
+134;21;Sarapiquí;2842
+135;22;San Ramón;8717
+136;22;Santiago;4535
+137;22;San Juan;11695
+138;22;Piedades Norte;8147
+139;22;Piedades Sur;3738
+140;22;San Rafael;9321
+141;22;San Isidro;4478
+142;22;Angeles;8500
+143;22;Alfaro;7137
+144;22;Volio;2270
+145;22;Concepción;2348
+146;22;Zapotal;391
+147;22;Peñas Blancas;9289
+148;23;Grecia;14859
+149;23;San Isidro;5949
+150;23;San José;8100
+151;23;San Roque;11132
+152;23;Tacares;7963
+153;23;Río Cuarto;11074
+154;23;Puente de Piedra;10556
+155;23;Bolívar;7265
+156;24;San Mateo;2692
+157;24;Desmonte;1047
+158;24;Jesús María;2397
+159;25;Atenas;7546
+160;25;Jesús;3631
+161;25;Mercedes;3127
+162;25;San Isidro;2813
+163;25;Concepción;3473
+164;25;San José;1940
+165;25;Santa Eulalia;2082
+166;25;Escobal;848
+167;26;Naranjo;15936
+168;26;San Miguel;4657
+169;26;San José;3162
+170;26;Cirrí Sur;4552
+171;26;San Jerónimo;3264
+172;26;San Juan;3114
+173;26;Rosario;3757
+174;26;Palmitos;4271
+175;27;Palmares;3599
+176;27;Zaragoza;8219
+177;27;Buenos Aires;7493
+178;27;Santiago;2737
+179;27;Candelaria;1961
+180;27;Esquipulas;6588
+181;27;Granja;4119
+182;28;San Pedro;7554
+183;28;San Juan;4638
+184;28;San Rafael;5436
+185;28;Carrillos;9228
+186;28;Sabana Redonda;2343
+187;29;Orotina;9664
+188;29;Mastate;1821
+189;29;Hacienda Vieja;1022
+190;29;Coyolar;5912
+191;29;Ceiba;1922
+192;30;Quesada;42060
+193;30;Florencia;15149
+194;30;Buenavista;325
+195;30;Aguas Zarcas;20239
+196;30;Venecia;9638
+197;30;Pital;17318
+198;30;Fortuna;15383
+199;30;Tigra;6374
+200;30;Palmera;6321
+201;30;Venado;1754
+202;30;Cutris;10334
+203;30;Monterrey;3455
+204;30;Pocosol;15395
+205;31;Zarcero;4004
+206;31;Laguna;1674
+207;31;Tapezco;1305
+208;31;Guadalupe;1148
+209;31;Palmira;1334
+210;31;Zapote;739
+211;31;Brisas;2001
+212;32;Sarchí Norte;7140
+213;32;Sarchí Sur;5143
+214;32;Toro Amarillo;273
+215;32;San Pedro;3408
+216;32;Rodríguez;2121
+217;33;Upala;16139
+218;33;Aguas Claras;4939
+219;33;San José;7352
+220;33;Bijagua;4538
+221;33;Delicias;4483
+222;33;Dos Ríos;3194
+223;33;Yolillal;3308
+224;34;Los Chiles;13262
+225;34;Caño Negro;1808
+226;34;El Amparo;5992
+227;34;San Jorge;2673
+228;35;San Rafael;7941
+229;35;Buenavista;1573
+230;35;Cote;867
+231;35;Katira;5127
+232;36;Oriental;12228
+233;36;Occidental;9901
+234;36;Carmen;17425
+235;36;San Nicolás;25948
+236;36;Aguacaliente;31789
+237;36;Guadalupe;14618
+238;36;Corralillo;10647
+239;36;Tierra Blanca;5103
+240;36;Dulce Nombre;10548
+241;36;Llano Grande;4342
+242;36;Quebradilla;5349
+243;37;Paraíso;20601
+244;37;Santiago;5534
+245;37;Orosi;9084
+246;37;Cachí;5438
+247;37;Llanos de Santa Lucía;17086
+248;38;Tres Ríos;9331
+249;38;San Diego;21620
+250;38;San Juan;13729
+251;38;San Rafael;14247
+252;38;Concepción;16515
+253;38;Dulce Nombre;7893
+254;38;San Ramón;4054
+255;38;Río Azul;12010
+256;39;Juan Viñas;6552
+257;39;Tucurrique;4872
+258;39;Pejibaye;3245
+259;40;Turrialba;26680
+260;40;La Suiza;7590
+261;40;Peralta;511
+262;40;Santa Cruz;3208
+263;40;Santa Teresita;4744
+264;40;Pavones;4331
+265;40;Tuis;2837
+266;40;Tayutic;2374
+267;40;Santa Rosa;5232
+268;40;Tres Equis;1808
+269;40;La Isabel;6116
+270;40;Chirripó;4185
+271;41;Pacayas;5628
+272;41;Cervantes;6230
+273;41;Capellades;2454
+274;42;San Rafael;27248
+275;42;Cot;9630
+276;42;Potrero Cerrado;2281
+277;42;Cipreses;3700
+278;42;Santa Rosa;2614
+279;43;Tejar;24984
+280;43;San Isidro;9828
+281;43;Tobosi;6569
+282;43;Patio de Agua;412
+283;44;Heredia;18697
+284;44;Mercedes;25744
+285;44;San Francisco;49209
+286;44;Ulloa;29266
+287;44;Vara Blanca;700
+288;45;Barva;4997
+289;45;San Pedro;9932
+290;45;San Pablo;8319
+291;45;San Roque;4622
+292;45;Santa Lucía;7413
+293;45;San José de la Montaña;5377
+294;46;Santo Domingo;4730
+295;46;San Vicente;6427
+296;46;San Miguel;6363
+297;46;Paracito;2231
+298;46;Santo Tomás;6267
+299;46;Santa Rosa;7269
+300;46;Tures;3452
+301;46;Pará;3333
+302;47;Santa Bárbara;5944
+303;47;San Pedro;5582
+304;47;San Juan;7662
+305;47;Jesús;9603
+306;47;Santo Domingo;2879
+307;47;Purabá;4573
+308;48;San Rafael;9668
+309;48;San Josecito;11579
+310;48;Santiago;8409
+311;48;Angeles;10232
+312;48;Concepción;6077
+313;49;San Isidro;6113
+314;49;San José;7447
+315;49;Concepción;2635
+316;49;San Francisco;4438
+317;50;San Antonio;9942
+318;50;Rivera;6040
+319;50;Asunción;5651
+320;51;San Joaquín;7173
+321;51;Barrantes;4091
+322;51;Llorente;8773
+323;52;San Pablo;19412
+324;52;Rincón de Sabanilla;8259
+325;53;Puerto Viejo;20184
+326;53;La Virgen;10521
+327;53;Horquetas;24331
+328;53;Llanuras de Gaspar;1160
+329;53;Cureña;951
+330;54;Liberia;53382
+331;54;Cañas Dulces;3230
+332;54;Mayorga;1599
+333;54;Nacascolo;2249
+334;54;Curubandé;2527
+335;55;Nicoya;24833
+336;55;Mansión;5717
+337;55;San Antonio;6642
+338;55;Quebrada Honda;2523
+339;55;Sámara;3512
+340;55;Nosara;4912
+341;55;Belén de Nosarita;2686
+342;56;Santa Cruz;21544
+343;56;Bolsón;1627
+344;56;Veintisiete de Abril;7048
+345;56;Tempate;5630
+346;56;Cartagena;3824
+347;56;Cuajiniquil;1789
+348;56;Diriá;3905
+349;56;Cabo Velas;3362
+350;56;Tamarindo;6375
+351;57;Bagaces;12367
+352;57;Fortuna;2756
+353;57;Mogote;3398
+354;57;Río Naranjo;1015
+355;58;Filadelfia;7953
+356;58;Palmira;5416
+357;58;Sardinal;14912
+358;58;Belén;8841
+359;59;Cañas;20816
+360;59;Palmira;988
+361;59;San Miguel;1644
+362;59;Bebedero;2084
+363;59;Porozal;669
+364;60;Juntas;9482
+365;60;Sierra;2351
+366;60;San Juan;1585
+367;60;Colorado;4621
+368;61;Tilarán;8677
+369;61;Quebrada Grande;2700
+370;61;Tronadora;1795
+371;61;Santa Rosa;1945
+372;61;Líbano;865
+373;61;Tierras Morenas;1358
+374;61;Arenal;2300
+375;62;Carmona;2486
+376;62;Santa Rita;1446
+377;62;Zapotal;1215
+378;62;San Pablo;2207
+379;62;Porvenir;741
+380;62;Bejuco;3026
+381;63;La Cruz;9195
+382;63;Santa Cecilia;6258
+383;63;Garita;1688
+384;63;Santa Elena;2040
+385;64;Hojancha;4245
+386;64;Monte Romo;671
+387;64;Puerto Carrillo;1574
+388;64;Huacas;707
+389;65;Puntarenas;8335
+390;65;Pitahaya;2211
+391;65;Chomes;5522
+392;65;Lepanto;9502
+393;65;Paquera;6686
+394;65;Manzanillo;2811
+395;65;Guacimal;923
+396;65;Barranca;30650
+397;65;Monte Verde;4155
+398;65;Isla del Coco;0
+399;65;Cóbano;7494
+400;65;Chacarita;17434
+401;65;Chira;1576
+402;65;Acapulco;1296
+403;65;El Roble;15759
+404;65;Arancibia;665
+405;66;Espíritu Santo;15686
+406;66;San Juan Grande;6171
+407;66;Macacona;4742
+408;66;San Rafael;1294
+409;66;San Jerónimo;751
+410;67;Buenos Aires;21063
+411;67;Volcán;3815
+412;67;Potrero Grande;5956
+413;67;Boruca;3074
+414;67;Pilas;1659
+415;67;Colinas;1371
+416;67;Chánguena;2631
+417;67;Biolley;2455
+418;67;Brunka;3220
+419;68;Miramar;8298
+420;68;Unión;1249
+421;68;San Isidro;3403
+422;69;Puerto Cortés;7969
+423;69;Palmar;9815
+424;69;Sierpe;4205
+425;69;Bahía Ballena;3306
+426;69;Piedras Blancas;4138
+427;70;Quepos;19858
+428;70;Savegre;3326
+429;70;Naranjito;3677
+430;71;Golfito;11284
+431;71;Puerto Jiménez;8789
+432;71;Guaycará;12918
+433;71;Pavón;6159
+434;72;San Vito;14834
+435;72;Sabalito;10984
+436;72;Aguabuena;6286
+437;72;Limoncito;3591
+438;72;Pittier;2758
+439;73;Parrita;16115
+440;74;Corredores;17250
+441;74;La Cuesta;3906
+442;74;Canoas;11527
+443;74;Laurel;9148
+444;75;Jacó;11685
+445;75;Tárcoles;5544
+446;76;Limón;61072
+447;76;Valle  La Estrella;17908
+448;76;Río Blanco;8307
+449;76;Matama;7128
+450;77;Guápiles;36469
+451;77;Jiménez;10501
+452;77;Rita;24041
+453;77;Roxana;16790
+454;77;Cariari;34176
+455;77;Colorado;3985
+456;78;Siquirres;31637
+457;78;Pacuarito;8756
+458;78;Florida;2184
+459;78;Germania;2471
+460;78;Cairo;6082
+461;78;Alegría;5656
+462;79;Bratsi;7318
+463;79;Sixaola;8861
+464;79;Cahuita;8293
+465;79;Telire;6240
+466;80;Matina;9142
+467;80;Batán;16532
+468;80;Carrandi;12047
+469;81;Guácimo;18326
+470;81;Mercedes;1707
+471;81;Pocora;6432
+472;81;Río Jiménez;8742
+473;81;Duacarí;6059

@@ -1,0 +1,82 @@
+id_respuesta;id_pregunta;descripcion_respuesta
+1;1;Masculino
+2;1;Femenino
+4;3;Activo tiempo completo (estudiando o trabajando)
+5;3;Activo tiempo parcial (estudiando o trabajando)
+6;3;Inactivo
+7;3;Pensionado por Vejez
+8;3;Pensionado por Invalidez
+9;4;Anemia Hemolítica Autoinmune
+10;4;Anemia Perniciosa
+11;4;Artritis Reumatoide
+12;4;Celiaquía
+13;4;Colitis Ulcerativa
+14;4;Diabetes Mellitus insulinodependiente ( Diabetes tipo I)
+15;4;Enfermedad de Addison
+16;4;Enfermedad de Chron
+17;4;Enfermedad de Graves
+18;4;Esclerosis Múltiple
+19;4;Escleroderma
+20;4;Espondilitis Anquilosante
+21;4;Hepatitis Autoinmune
+22;4;Hipotiroidismo de Hashimoto
+23;4;Lupus Eritomatoso Sistémico
+24;4;Miastenia Gravis
+25;4;Neuromielítis Óptica
+26;4;Psoriasis
+27;4;Polineuropatía Desmielizante Inflamatoria Crónica
+28;4;Poliomiositis
+29;4;Púrpura Trombocitopénica
+30;4;Síndrome de Sjorgen
+31;4;Vitiligo
+32;4;Vasculitis Autoinmune
+33;5;Si
+34;5;No.Soy el único caso
+35;6;Diabetes Mellitus
+36;6;Enfermedad Cardiovascular
+37;6;Enfermedad Pulmonar Crónica
+38;7;0 - 10 años
+39;7;11 - 20 años
+40;7;21 - 30 años
+41;7;31 - 40 años
+42;7;41 - 50 años
+43;7;51 -60 años
+44;7;61 - 70 años
+45;7;71 - 80 años
+46;7;Mayor de 80 años
+47;9;Sí
+48;9;No
+49;9;Algunas veces
+50;10;Menos de 1 años
+51;10;1 a 5 años
+52;10;5 a 10 años
+53;10;Más de 10 años
+54;10;En proceso de diagnóstico
+55;11;Pública
+56;11;Privada
+57;11;Ambas
+58;11;Ninguna
+59;12;Sí. (A través de la seguridad social)
+60;12;Sí. (Financiamiento propio)
+61;12;Sí. (A través de la seguridad social y financiamiento propio)
+62;12;No
+63;13;En espera por cambio de tratamiento
+64;13;Descontinuación por Efectos Secundarios
+65;13;Buena Evolución. Por recomendación médica no requiero tratamiento.
+66;13;Tratamiento no disponible
+67;13;En espera de recurso de amparo
+68;17;No
+69;17;Si
+70;18;Libros, Revistas
+71;18;Pacientes
+72;18;Cuerpo Médico (personal de medicina o enfermería)
+73;18;Redes Sociales
+74;18;Internet
+75;19;Nutrición
+76;19;Física
+77;19;Piscológica
+78;19;Ocupacional
+79;20;Nutrición
+80;20;Física
+81;20;Piscológica
+82;20;Ocupacional
