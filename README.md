@@ -69,7 +69,7 @@ Como nota mental, para trabajar con el proyecto en desarrollo procure correrlo c
 ## Reconocimientos y Agradecimientos.
 
 * **Adriana Céspedes** -[acespedesv](https://github.com/acespedesv) - Cliente y QA
-* **Rodolfo Mora** - [@Rjmoraza](https://github.com/Rjmoraza) - Guru
+* **Rodolfo Mora** - [Rjmoraza](https://github.com/Rjmoraza) - Guru
 * [jsondavies/d3-wordcloud](https://github.com/jasondavies/d3-cloud) - Your code were very helpful.
 
 
